@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* Atelier Color System */
+  --color-studio-bg: #0A0A0A;
+  --color-studio-card: #141414;
+  --color-studio-border: #2A2A2A;
+  --color-studio-accent: #E8FF47;
+  --color-studio-accent-hover: rgba(255, 255, 255, 0.1);
+  --color-studio-text-primary: rgba(255, 255, 255, 0.95);
+  --color-studio-text-secondary: rgba(255, 255, 255, 0.5);
+
+  /* Atelier Typography */
+  --font-display: var(--font-syne), sans-serif;
+  --font-sans: var(--font-dm-sans), sans-serif;
+}
+
+:root {
+  --background: #0A0A0A;
+  --foreground: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-dm-sans), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom horizontal scrollbar hide */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Glassmorphism utility */
+.glass-panel {
+  background: rgba(20, 20, 20, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Acid glow highlight */
+.accent-glow {
+  box-shadow: 0 0 20px rgba(232, 255, 71, 0.15);
+}
+
