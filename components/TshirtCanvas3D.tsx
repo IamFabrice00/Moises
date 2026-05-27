@@ -204,7 +204,7 @@ export default function TshirtCanvas3D() {
         <pointLight position={[0, -2, 2]} intensity={0.3} />
 
         <Suspense fallback={<ThreeLoaderFallback />}>
-          <group position={[0, -0.4, 0]}>
+          <group position={[0, -0.25, 0]}>
             <ShirtGroup />
             
             {/* Ambient Occlusion Soft Contact Ground Shadows */}
