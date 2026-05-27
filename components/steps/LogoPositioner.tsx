@@ -10,6 +10,7 @@ export default function LogoPositioner() {
     locale,
     logoScale,
     logoRotation,
+    logoPosition,
     setLogoScale,
     setLogoRotation,
     setLogoPosition,
@@ -163,6 +164,58 @@ export default function LogoPositioner() {
               className="w-full h-1 bg-studio-border rounded-lg appearance-none cursor-pointer accent-studio-accent"
               style={{
                 background: `linear-gradient(to right, #E8FF47 0%, #E8FF47 ${((logoRotation + 30) / 60) * 100}%, #2A2A2A ${((logoRotation + 30) / 60) * 100}%, #2A2A2A 100%)`
+              }}
+            />
+          </div>
+
+          {/* Horizontal Position Slider */}
+          <div className="flex flex-col">
+            <div className="flex justify-between items-center mb-2">
+              <div className="flex items-center gap-1.5">
+                <Move className="h-3.5 w-3.5 text-white/50" />
+                <span className="font-display text-xs font-bold text-white uppercase tracking-wider">
+                  {t.step3.sliderX}
+                </span>
+              </div>
+              <span className="font-sans text-xs font-bold text-studio-accent bg-studio-accent/5 border border-studio-accent/15 px-2 py-0.5 rounded">
+                {logoPosition.x > 0 ? `+${logoPosition.x}` : logoPosition.x}
+              </span>
+            </div>
+            <input
+              type="range"
+              min="-80"
+              max="80"
+              value={logoPosition.x}
+              onChange={(e) => setLogoPosition({ ...logoPosition, x: Number(e.target.value) })}
+              className="w-full h-1 bg-studio-border rounded-lg appearance-none cursor-pointer accent-studio-accent"
+              style={{
+                background: `linear-gradient(to right, #E8FF47 0%, #E8FF47 ${((logoPosition.x + 80) / 160) * 100}%, #2A2A2A ${((logoPosition.x + 80) / 160) * 100}%, #2A2A2A 100%)`
+              }}
+            />
+          </div>
+
+          {/* Vertical Position Slider */}
+          <div className="flex flex-col">
+            <div className="flex justify-between items-center mb-2">
+              <div className="flex items-center gap-1.5">
+                <Move className="h-3.5 w-3.5 rotate-90 text-white/50" />
+                <span className="font-display text-xs font-bold text-white uppercase tracking-wider">
+                  {t.step3.sliderY}
+                </span>
+              </div>
+              <span className="font-sans text-xs font-bold text-studio-accent bg-studio-accent/5 border border-studio-accent/15 px-2 py-0.5 rounded">
+                {logoPosition.y > 0 ? `+${logoPosition.y}` : logoPosition.y}
+              </span>
+            </div>
+            <input
+              type="range"
+              min="-100"
+              max="20"
+              value={logoPosition.y}
+              onChange={(e) => setLogoPosition({ ...logoPosition, y: Number(e.target.value) })}
+              className="w-full h-1 bg-studio-border rounded-lg appearance-none cursor-pointer accent-studio-accent"
+              style={{
+                background: `linear-gradient(to right, #E8FF47 0%, #E8FF47 ${((logoPosition.y + 100) / 120) * 100}%, #2A2A2A ${((logoPosition.y + 100) / 120) * 100}%, #2A2A2A 100%)`
               }}
             />
           </div>

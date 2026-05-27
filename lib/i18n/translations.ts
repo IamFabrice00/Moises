@@ -61,6 +61,8 @@ export interface TranslationDict {
     presetRight: string;
     sliderScale: string;
     sliderRotation: string;
+    sliderX: string;
+    sliderY: string;
     reset: string;
     btnBack: string;
     btnNext: string;
@@ -207,13 +209,15 @@ export const translations: Record<Locale, TranslationDict> = {
       title: "Posiziona Grafica",
       desc: "Usa i controlli sottostanti o trascina direttamente la grafica sulla t-shirt per posizionarla e ridimensionarla. Il logo rimarrà confinato all'interno dell'area di stampa sicura.",
       dragTipHeader: "Controllo Interattivo",
-      dragTipBody: "Puoi cliccare e trascinare il logo sul petto del capo",
+      dragTipBody: "Puoi cliccare e trascinare la maglietta in 3D per ruotarla a 360 gradi",
       presetsHeader: "Allineamenti Rapidi",
       presetLeft: "Sinistra petto",
       presetCenter: "Centro petto",
       presetRight: "Destra petto",
       sliderScale: "Dimensione",
       sliderRotation: "Rotazione",
+      sliderX: "Allineamento Orizzontale",
+      sliderY: "Allineamento Verticale",
       reset: "Resetta posizionamento",
       btnBack: "← Indietro",
       btnNext: "Vedi Anteprima",
@@ -358,13 +362,15 @@ export const translations: Record<Locale, TranslationDict> = {
       title: "Position Artwork",
       desc: "Use the sliders below or drag your logo directly on the t-shirt to position and scale it. The logo will remain strictly inside the safe printable region.",
       dragTipHeader: "Interactive Control",
-      dragTipBody: "You can click and drag the logo directly on the chest",
+      dragTipBody: "You can click and drag the 3D t-shirt to rotate it 360 degrees",
       presetsHeader: "Quick Alignments",
       presetLeft: "Left chest",
       presetCenter: "Center chest",
       presetRight: "Right chest",
       sliderScale: "Dimensions",
       sliderRotation: "Rotation",
+      sliderX: "Horizontal Alignment",
+      sliderY: "Vertical Alignment",
       reset: "Reset placement",
       btnBack: "← Back",
       btnNext: "View Preview",
@@ -509,13 +515,15 @@ export const translations: Record<Locale, TranslationDict> = {
       title: "Posicionar Gráfico",
       desc: "Usa los controles inferiores o arrastra directamente el diseño sobre la camiseta para ubicarlo y escalarlo. El logo quedará dentro de la zona de impresión segura.",
       dragTipHeader: "Control Interactivo",
-      dragTipBody: "Puedes hacer clic y arrastrar el logo directamente sobre el pecho",
+      dragTipBody: "Puedes hacer clic y arrastrar la camiseta 3D para rotarla 360 grados",
       presetsHeader: "Alineaciones Rápidas",
       presetLeft: "Pecho izquierdo",
       presetCenter: "Centro pecho",
       presetRight: "Pecho derecho",
       sliderScale: "Dimensión",
       sliderRotation: "Rotación",
+      sliderX: "Alineación Horizontal",
+      sliderY: "Alineación Vertical",
       reset: "Restablecer posición",
       btnBack: "← Atrás",
       btnNext: "Ver Vista Previa",
