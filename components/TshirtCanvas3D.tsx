@@ -10,9 +10,11 @@ import {
   Environment,
   AdaptiveDpr,
   AdaptiveEvents,
+  Html,
 } from "@react-three/drei";
 import * as THREE from "three";
 import { useDesignStore } from "@/lib/store/designStore";
+import { Loader2 } from "lucide-react";
 
 // Type definitions for useGLTF result
 type GLTFResult = {
@@ -50,7 +52,7 @@ function ShirtMesh() {
           if (img) {
             const width = img.width || 100;
             const height = img.height || 100;
-            setAspectRatio(height / width);
+            setAspectRatio(img.height / img.width);
           }
           setTexture(tex);
         },
@@ -121,6 +123,48 @@ function ShirtMesh() {
   );
 }
 
+// Auto-rotator and positioning group
+function ShirtGroup() {
+  const groupRef = useRef<THREE.Group>(null);
+  const { currentStep } = useDesignStore();
+
+  useFrame((state) => {
+    if (groupRef.current) {
+      if (currentStep === 3) {
+        // Smoothly lerp back to face the camera (Y=0) when positioning
+        groupRef.current.rotation.y = THREE.MathUtils.lerp(
+          groupRef.current.rotation.y,
+          0,
+          0.08
+        );
+      } else {
+        // Continuous gentle auto-spin
+        groupRef.current.rotation.y = state.clock.getElapsedTime() * 0.25;
+      }
+    }
+  });
+
+  return (
+    <group ref={groupRef}>
+      <ShirtMesh />
+    </group>
+  );
+}
+
+// 3D Canvas Loading Overlay inside WebGL context
+function ThreeLoaderFallback() {
+  return (
+    <Html center>
+      <div className="flex flex-col items-center justify-center bg-black/60 border border-studio-border/30 rounded-xl p-5 shadow-2xl backdrop-blur-md min-w-[140px]">
+        <Loader2 className="h-6 w-6 text-studio-accent animate-spin" />
+        <span className="font-mono text-[9px] text-white/50 tracking-widest uppercase mt-3 text-center whitespace-nowrap">
+          Loading 3D Mesh
+        </span>
+      </div>
+    </Html>
+  );
+}
+
 // 3D Scene Assembly
 export default function TshirtCanvas3D() {
   const { currentStep } = useDesignStore();
@@ -159,9 +203,9 @@ export default function TshirtCanvas3D() {
         />
         <pointLight position={[0, -2, 2]} intensity={0.3} />
 
-        <Suspense fallback={null}>
+        <Suspense fallback={<ThreeLoaderFallback />}>
           <group position={[0, -0.4, 0]}>
-            <ShirtMesh />
+            <ShirtGroup />
             
             {/* Ambient Occlusion Soft Contact Ground Shadows */}
             <ContactShadows
