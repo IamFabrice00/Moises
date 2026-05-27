@@ -171,9 +171,9 @@ export const translations: Record<Locale, TranslationDict> = {
       btnCreate: "Crea Ora",
       btnExplore: "Scopri Atelier",
       conceptBadge: "Il Concetto",
-      conceptTitle: "Stampa serigrafica digitale di lusso",
+      conceptTitle: "Stampa di Alta Qualità",
       conceptDesc:
-        "Non siamo un print-on-demand generico. Ciascuna maglietta viene tessuta con filati ritorti ring-spun pettinati, tinta con bagni ecosostenibili certificati e stampata con emulsioni serigrafiche a base d'acqua che si fondono direttamente nelle fibre del cotone, garantendo morbidezza eccezionale, colori ultra-vibranti e una durata eterna nel tempo.",
+        "Non siamo la solita stampa veloce. Ogni maglietta è realizzata in cotone biologico morbido e resistente, tinta con metodi ecologici e stampata con inchiostri all'acqua che penetrano nel tessuto. Il risultato? Una maglietta incredibilmente soffice al tatto, con colori vivi e una stampa che dura per sempre, lavaggio dopo lavaggio.",
       footer: "© 2026 Merch Studio. Digital Couture Atelier. Tutti i diritti riservati.",
     },
     step1: {
@@ -322,9 +322,9 @@ export const translations: Record<Locale, TranslationDict> = {
       btnCreate: "Design Now",
       btnExplore: "Discover Atelier",
       conceptBadge: "The Concept",
-      conceptTitle: "Luxury digital screenprinting",
+      conceptTitle: "Premium Quality Printing",
       conceptDesc:
-        "We are not standard print-on-demand. Every t-shirt is knit with premium ring-spun combed yarns, dyed in certified eco-friendly baths, and printed with water-based silk screen emulsions that blend directly into the cotton fibers, ensuring incredible softness, ultra-vibrant colors, and a lifetime of durability.",
+        "We are not your average fast print shop. Every t-shirt is made from soft, durable organic cotton, dyed using eco-friendly methods, and printed with water-based inks that blend into the fabric. The result? An incredibly soft shirt with vibrant colors and a print that lasts forever, wash after wash.",
       footer: "© 2026 Merch Studio. Digital Couture Atelier. All rights reserved.",
     },
     step1: {
@@ -473,9 +473,9 @@ export const translations: Record<Locale, TranslationDict> = {
       btnCreate: "Diseñar Ahora",
       btnExplore: "Descubrir Taller",
       conceptBadge: "El Concepto",
-      conceptTitle: "Serigrafía digital de lujo",
+      conceptTitle: "Impresión de Alta Calidad",
       conceptDesc:
-        "No somos una impresión bajo demanda genérica. Cada camiseta se teje con hilos trenzados peinados ring-spun, se tiñe en baños ecológicos certificados y se imprime con emulsiones serigráficas al agua que se funden en el algodón, garantizando suavidad, color y una duración eterna.",
+        "No somos la típica imprenta rápida. Cada camiseta está hecha de algodón orgánico suave y resistente, teñida con métodos ecológicos e impresa con tintas al agua que se fundan en el tejido. ¿El resultado? Una camiseta increíblemente suave al tacto, con colores de gran viveza y un estampado que dura para siempre, lavado tras lavado.",
       footer: "© 2026 Merch Studio. Digital Couture Atelier. Todos los derechos reservados.",
     },
     step1: {
