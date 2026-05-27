@@ -88,8 +88,8 @@ export default function Home() {
             </div>
             
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-black text-white leading-[1.05] tracking-tight uppercase">
-              {locale === "es" ? "Merch" : "Merch"}{" "}
-              <span className="text-studio-accent">Studio</span>
+              Latino{" "}
+              <span className="text-studio-accent">Gvng</span>
             </h1>
 
             <p className="font-sans text-sm sm:text-base text-studio-text-secondary leading-relaxed max-w-lg">

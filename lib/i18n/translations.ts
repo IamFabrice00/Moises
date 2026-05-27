@@ -164,7 +164,7 @@ export const translations: Record<Locale, TranslationDict> = {
     },
     hero: {
       badge: "Couture On-Demand",
-      title: "Merch Studio",
+      title: "Latino Gvng",
       subtitle: "L'ATELIER DIGITALE DELLA PERSONALIZZAZIONE COUTURE.",
       description:
         "Benvenuto nell'atelier digitale per abbigliamento su misura. Combiniamo la precisione del design vettoriale in tempo reale con i più alti standard di stampa artigianale. Crea capi iconici per il tuo brand, posiziona liberamente il tuo logo e ordina in volumi con sconti automatizzati.",
@@ -174,7 +174,7 @@ export const translations: Record<Locale, TranslationDict> = {
       conceptTitle: "Stampa di Alta Qualità",
       conceptDesc:
         "Non siamo la solita stampa veloce. Ogni maglietta è realizzata in cotone biologico morbido e resistente, tinta con metodi ecologici e stampata con inchiostri all'acqua che penetrano nel tessuto. Il risultato? Una maglietta incredibilmente soffice al tatto, con colori vivi e una stampa che dura per sempre, lavaggio dopo lavaggio.",
-      footer: "© 2026 Merch Studio. Digital Couture Atelier. Tutti i diritti riservati.",
+      footer: "© 2026 Latino Gvng. Digital Couture Atelier. Tutti i diritti riservati.",
     },
     step1: {
       step: "Step 01",
@@ -287,7 +287,7 @@ export const translations: Record<Locale, TranslationDict> = {
       supportHeader: "Assistenza Atelier",
       supportDesc: "Bozza tecnica PDF inviata via email prima della produzione fisica",
       successHeader: "Richiesta Ricevuta!",
-      successBody: "Grazie per aver scelto MERCH STUDIO. Abbiamo caricato la tua configurazione e generato la bozza tecnica ad alta risoluzione.",
+      successBody: "Grazie per aver scelto LATINO GVNG. Abbiamo caricato la tua configurazione e generato la bozza tecnica ad alta risoluzione.",
       successConfirmEmail: "Email di conferma",
       successConfirmPrice: "Prezzo concordato",
       successConfirmQty: "Quantità magliette",
@@ -315,7 +315,7 @@ export const translations: Record<Locale, TranslationDict> = {
     },
     hero: {
       badge: "Couture On-Demand",
-      title: "Merch Studio",
+      title: "Latino Gvng",
       subtitle: "THE DIGITAL ATELIER OF CUSTOM FASHION COUTURE.",
       description:
         "Welcome to the digital atelier for custom-tailored apparel. We combine real-time vector design precision with the highest standard of physical print craftsmanship. Create iconic garments for your brand, position your logo freely, and order in volume with automated discounts.",
@@ -325,7 +325,7 @@ export const translations: Record<Locale, TranslationDict> = {
       conceptTitle: "Premium Quality Printing",
       conceptDesc:
         "We are not your average fast print shop. Every t-shirt is made from soft, durable organic cotton, dyed using eco-friendly methods, and printed with water-based inks that blend into the fabric. The result? An incredibly soft shirt with vibrant colors and a print that lasts forever, wash after wash.",
-      footer: "© 2026 Merch Studio. Digital Couture Atelier. All rights reserved.",
+      footer: "© 2026 Latino Gvng. Digital Couture Atelier. All rights reserved.",
     },
     step1: {
       step: "Step 01",
@@ -438,7 +438,7 @@ export const translations: Record<Locale, TranslationDict> = {
       supportHeader: "Atelier Support",
       supportDesc: "High-res PDF technical draft sent via email prior to physical production",
       successHeader: "Request Received!",
-      successBody: "Thank you for choosing MERCH STUDIO. We have saved your configuration and generated your high-resolution digital proof.",
+      successBody: "Thank you for choosing LATINO GVNG. We have saved your configuration and generated your high-resolution digital proof.",
       successConfirmEmail: "Confirmation email",
       successConfirmPrice: "Agreed price",
       successConfirmQty: "T-shirt quantity",
@@ -466,7 +466,7 @@ export const translations: Record<Locale, TranslationDict> = {
     },
     hero: {
       badge: "Couture On-Demand",
-      title: "Merch Studio",
+      title: "Latino Gvng",
       subtitle: "EL TALLER DIGITAL DE LA PERSONALIZACIÓN COUTURE.",
       description:
         "Bienvenido al taller digital de ropa a medida. Combinamos la precisión del diseño vectorial en tiempo real con los estándares más altos de impresión artesanal. Crea prendas icónicas para tu marca, posiciona tu logo libremente y ordena en volumen con descuentos automatizados.",
@@ -476,7 +476,7 @@ export const translations: Record<Locale, TranslationDict> = {
       conceptTitle: "Impresión de Alta Calidad",
       conceptDesc:
         "No somos la típica imprenta rápida. Cada camiseta está hecha de algodón orgánico suave y resistente, teñida con métodos ecológicos e impresa con tintas al agua que se fundan en el tejido. ¿El resultado? Una camiseta increíblemente suave al tacto, con colores de gran viveza y un estampado que dura para siempre, lavado tras lavado.",
-      footer: "© 2026 Merch Studio. Digital Couture Atelier. Todos los derechos reservados.",
+      footer: "© 2026 Latino Gvng. Digital Couture Atelier. Todos los derechos reservados.",
     },
     step1: {
       step: "Paso 01",
@@ -589,7 +589,7 @@ export const translations: Record<Locale, TranslationDict> = {
       supportHeader: "Soporte de Taller",
       supportDesc: "Ficha técnica PDF enviada por email antes de la producción física",
       successHeader: "¡Solicitud Recibida!",
-      successBody: "Gracias por elegir MERCH STUDIO. Hemos guardado tu configuración y generado tu boceto digital de alta resolución.",
+      successBody: "Gracias por elegir LATINO GVNG. Hemos guardado tu configuración y generado tu boceto digital de alta resolución.",
       successConfirmEmail: "Email de confirmación",
       successConfirmPrice: "Precio acordado",
       successConfirmQty: "Cantidad de camisetas",

@@ -20,7 +20,7 @@ export default function Navbar() {
       <header className="fixed top-0 left-0 z-50 w-full border-b border-studio-border bg-studio-bg/80 backdrop-blur-md">
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="font-display text-lg font-bold tracking-widest text-white">
-            MERCH STUDIO
+            LATINO GVNG
           </div>
           <div></div>
         </div>
@@ -57,7 +57,7 @@ export default function Navbar() {
           onClick={() => setStep(1)}
           className="cursor-pointer font-display text-xl font-extrabold tracking-widest text-white select-none transition-opacity hover:opacity-80"
         >
-          MERCH <span className="text-studio-accent">STUDIO</span>
+          LATINO <span className="text-studio-accent">GVNG</span>
         </div>
 
         {/* Center: Linear step indicators (Desktop) */}

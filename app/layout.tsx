@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "MERCH STUDIO | Atelier Digitale per Magliette su Misura",
+  title: "LATINO GVNG | Atelier Digitale per Magliette su Misura",
   description: "Disegna e personalizza la tua maglietta couture. Scegli il colore, carica il tuo logo e posizionalo in tempo reale con il nostro studio interattivo 3D.",
 };
 

@@ -95,7 +95,7 @@ export const useDesignStore = create<DesignState>()(
         }),
     }),
     {
-      name: "merch-studio-session",
+      name: "latino-gvng-session",
       storage: createJSONStorage(() => sessionStorage),
       partialize: (state) => {
         // Exclude logoFile from session storage as File objects aren't JSON serializable
